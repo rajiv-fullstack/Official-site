@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../assets/img/netsparked.png";
 const Footer = () => {
   return (
     <>
@@ -127,7 +127,9 @@ const Footer = () => {
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>netSparked</span>
+              <span>
+                <img src={Logo} />
+              </span>
             </strong>
             . All Rights Reserved
           </div>
